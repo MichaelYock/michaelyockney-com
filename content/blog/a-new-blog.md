@@ -1,6 +1,7 @@
 ---
+layout: blog
 title: A New Blog
-date: "2022-04-19"
+date: 2022-04-19T05:27:24.800Z
 description: "About this blog"
 ---
 
