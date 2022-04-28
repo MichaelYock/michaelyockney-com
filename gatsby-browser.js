@@ -7,4 +7,4 @@ import "./src/normalize.css"
 import "./src/style.css"
 
 // Highlighting for code blocks
-import "prismjs/themes/prism.css"
+import "dracula-prism/dist/css/dracula-prism.css"
