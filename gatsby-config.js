@@ -6,7 +6,7 @@ module.exports = {
       summary: `Freelance developer, indie hacker, artist. Living in NZ, coming to London 2022.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://michaelyockney.com`,
     social: {
       twitter: ``,
     },
@@ -119,6 +119,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://michaelyockney.com`,
+        noQueryString: true
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
