@@ -14,8 +14,7 @@ This site is built with [Gatsby](https://www.gatsbyjs.com/), hosted on [Netlify]
 
 **Canonical URLs** are generated with [gatsby-plugin-react-helmet](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-react-helmet) and [gatsby-plugin-react-helmet-canonical-urls](https://github.com/NickCis/gatsby-plugin-react-helmet-canonical-urls). Initially I just used Helmet to add a canonical link to the SEO component, but for completeness regarding https/http, www/no-www and some edge cases, I opted not to reinvent the wheel.
 
-**Syntax Highlighting** is [Prismjs](https://prismjs.com/) with [Dracula Theme.](https://draculatheme.com/)
-eg:
+**Syntax Highlighting** is [Prismjs](https://prismjs.com/) with [Dracula Theme:](https://draculatheme.com/)
 ```python
 print("Hello, world!")
 for i in range(10):
