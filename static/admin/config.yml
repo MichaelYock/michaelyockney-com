@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "src/images/uploads" # Media files will be stored in the repo under src/images/uploads
+public_folder: "images/uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -15,6 +16,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Canonical Url", name: "canonicalUrl", widget: "string", required: false}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Descrption", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
